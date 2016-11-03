@@ -1,0 +1,24 @@
+{
+  "name": "inthebones",
+  "version": "1.0.0",
+  "description": "Mobile first, responsive and lightweight grid system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaumecapdevila/inthebones.git"
+  },
+  "keywords": [
+    "grid",
+    "responsive",
+    "mobile-first"
+  ],
+  "author": "Jaume Capdevila Pérez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaumecapdevila/inthebones/issues"
+  },
+  "homepage": "https://github.com/jaumecapdevila/inthebones#readme"
+}
