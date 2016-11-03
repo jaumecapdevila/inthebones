@@ -1,2 +1,2 @@
 # inthebones
-Lightweight grid system
+Mobile first, lightweight and responsive grid system
