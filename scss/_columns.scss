@@ -2,6 +2,7 @@
   float: left;
   min-height: 1px;
   padding: $mobile-column-gutter;
+  box-sizing: border-box;
 }
 
 .column-1 {
