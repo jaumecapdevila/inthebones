@@ -2,6 +2,8 @@
 logs
 *.log
 npm-debug.log*
+#Maps
+*.map
 
 # Runtime data
 pids

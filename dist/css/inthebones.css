@@ -1,0 +1,156 @@
+/*IMPORT ALL THE MIXINS*/
+/* ==========================================================================
+   Grid Breakpoints
+   ========================================================================== */
+/* ==========================================================================
+   Gutters and margins
+   ========================================================================== */
+/* ==========================================================================
+   Columns width
+   ========================================================================== */
+/*LARGE DEVICES*/
+/*DESKTOP DEVICES*/
+/*TABLETS AND SMALL LAPTOPS*/
+/*MOBILE*/
+.grid {
+  width: 90%;
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.grid--full {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.grid__row:before,
+.grid__row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*='column-'] {
+  float: left;
+  min-height: 1px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.column-1 {
+  width: 100%;
+}
+
+.column-2 {
+  width: 100%;
+}
+
+.column-3 {
+  width: 100%;
+}
+
+.column-4 {
+  width: 100%;
+}
+
+.column-5 {
+  width: 100%;
+}
+
+.column-6 {
+  width: 100%;
+}
+
+/*TABLETS*/
+@media only screen and (min-width: 768px) {
+  [class*='column-'] {
+    padding: 8px;
+  }
+
+  .column-1 {
+    width: 33.33%;
+  }
+
+  .column-2 {
+    width: 66.66%;
+  }
+
+  .column-3 {
+    width: 100%;
+  }
+
+  .column-4 {
+    width: 100%;
+  }
+
+  .column-5 {
+    width: 100%;
+  }
+
+  .column-6 {
+    width: 100%;
+  }
+}
+/*LAPTOPS AND SMALL DESKTOP*/
+@media only screen and (min-width: 920px) {
+  [class*='column-'] {
+    padding: 12px;
+  }
+
+  .column-1 {
+    width: 25%;
+  }
+
+  .column-2 {
+    width: 50%;
+  }
+
+  .column-3 {
+    width: 75%;
+  }
+
+  .column-4 {
+    width: 100%;
+  }
+
+  .column-5 {
+    width: 100%;
+  }
+
+  .column-6 {
+    width: 100%;
+  }
+}
+/*LARGE DEVICES*/
+@media only screen and (min-width: 1200px) {
+  [class*='column-'] {
+    padding: 16px;
+  }
+
+  .column-1 {
+    width: 16.66%;
+  }
+
+  .column-2 {
+    width: 33.33%;
+  }
+
+  .column-3 {
+    width: 50%;
+  }
+
+  .column-4 {
+    width: 66.66%;
+  }
+
+  .column-5 {
+    width: 83.33%;
+  }
+
+  .column-6 {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=inthebones.css.map */
