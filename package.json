@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/jaumecapdevila/inthebones/issues"
   },
-  "homepage": "https://github.com/jaumecapdevila/inthebones#readme"
+  "homepage": "https://github.com/jaumecapdevila/inthebones#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-sass": "^1.0.0"
+  }
 }
