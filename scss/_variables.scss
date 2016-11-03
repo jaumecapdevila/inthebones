@@ -12,7 +12,8 @@
 
 $mobile-breakpoint: 320px;
 $tablet-breakpoint: 768px;
-$desktop-breakpoint: 1200px;
+$desktop-breakpoint: 920px;
+$large-breakpoint: 1200px;
 
 /* ==========================================================================
    Gutters and margins
@@ -20,21 +21,46 @@ $desktop-breakpoint: 1200px;
 
 $mobile-column-gutter: 5px;
 $tablet-column-gutter: 8px;
-$desktop-column-gutter: 15px;
+$desktop-column-gutter: 12px;
+$large-column-gutter: 16px;
 
 /* ==========================================================================
    Columns width
    ========================================================================== */
 
-$column-1: 6.86666666667%;
-$column-2: 15.3333333333%;
-$column-3: 23.8%;
-$column-4: 32.2666666667%;
-$column-5: 40.7333333333%;
-$column-6: 49.2%;
-$column-7: 57.6666666667%;
-$column-8: 66.1333333333%;
-$column-9: 74.6%;
-$column-10: 83.0666666667%;
-$column-11: 91.5333333333%;
-$column-12: 100%;
+
+/*LARGE DEVICES*/
+
+$large-column-1: 16.66%;
+$large-column-2: 33.33%;
+$large-column-3: 50%;
+$large-column-4: 66.66%;
+$large-column-5: 83.33%;
+$large-column-6: 100%;
+
+/*DESKTOP DEVICES*/
+
+$desktop-column-1: 25%;
+$desktop-column-2: 50%;
+$desktop-column-3: 75%;
+$desktop-column-4: 100%;
+$desktop-column-5: 100%;
+$desktop-column-6: 100%;
+
+/*TABLETS AND SMALL LAPTOPS*/
+
+$tablet-column-1: 33.33%;
+$tablet-column-2: 66.66%;
+$tablet-column-3: 100%;
+$tablet-column-4: 100%;
+$tablet-column-5: 100%;
+$tablet-column-6: 100%;
+
+/*MOBILE*/
+
+$mobile-column-1: 100%;
+$mobile-column-2: 100%;
+$mobile-column-3: 100%;
+$mobile-column-4: 100%;
+$mobile-column-5: 100%;
+$mobile-column-6: 100%;

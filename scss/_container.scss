@@ -1,9 +1,11 @@
-.grid-container {
+.grid {
   width: 90%;
   max-width: 1200px;
+  box-sizing: border-box;
   @include margin-auto();
 }
 
-.grid-container--full {
+.grid--full {
   width: 100%;
+  box-sizing: border-box;
 }

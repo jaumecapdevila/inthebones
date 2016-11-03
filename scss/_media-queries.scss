@@ -1,0 +1,79 @@
+/*TABLETS*/
+
+@media only screen and (min-width: $tablet-breakpoint) {
+  [class*='column-'] {
+    padding: $tablet-column-gutter;
+  }
+  .column-1 {
+    width: $tablet-column-1;
+  }
+  .column-2 {
+    width: $tablet-column-2;
+  }
+  .column-3 {
+    width: $tablet-column-3;
+  }
+  .column-4 {
+    width: $tablet-column-4;
+  }
+  .column-5 {
+    width: $tablet-column-5;
+  }
+  .column-6 {
+    width: $tablet-column-6;
+  }
+}
+
+
+/*LAPTOPS AND SMALL DESKTOP*/
+
+@media only screen and (min-width: $desktop-breakpoint) {
+  [class*='column-'] {
+    padding: $desktop-column-gutter;
+  }
+  .column-1 {
+    width: $desktop-column-1;
+  }
+  .column-2 {
+    width: $desktop-column-2;
+  }
+  .column-3 {
+    width: $desktop-column-3;
+  }
+  .column-4 {
+    width: $desktop-column-4;
+  }
+  .column-5 {
+    width: $desktop-column-5;
+  }
+  .column-6 {
+    width: $desktop-column-6;
+  }
+}
+
+
+/*LARGE DEVICES*/
+
+@media only screen and (min-width: $large-breakpoint) {
+  [class*='column-'] {
+    padding: $large-column-gutter;
+  }
+  .column-1 {
+    width: $large-column-1;
+  }
+  .column-2 {
+    width: $large-column-2;
+  }
+  .column-3 {
+    width: $large-column-3;
+  }
+  .column-4 {
+    width: $large-column-4;
+  }
+  .column-5 {
+    width: $large-column-5;
+  }
+  .column-6 {
+    width: $large-column-6;
+  }
+}

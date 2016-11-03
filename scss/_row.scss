@@ -1,4 +1,4 @@
-.row:before,
-.row:after {
+.grid__row:before,
+.grid__row:after {
   @include clearfix();
 }
