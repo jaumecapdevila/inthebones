@@ -1,0 +1,9 @@
+.grid-container {
+    width: 90%;
+    max-width: 1200px;
+    @include margin-auto();
+}
+
+.grid-container--full {
+    width: 100%;
+}
