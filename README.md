@@ -1,3 +1,5 @@
+![MacDown Screenshot](inthebones.jpg)
+
 #inthebones
 A mobile first, lightweight and responsive grid system.
 

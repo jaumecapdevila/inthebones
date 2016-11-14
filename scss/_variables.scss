@@ -64,3 +64,44 @@ $mobile-column-3: 100%;
 $mobile-column-4: 100%;
 $mobile-column-5: 100%;
 $mobile-column-6: 100%;
+
+/* ==========================================================================
+   COLUMNS OFFSETS
+   ========================================================================== */
+
+
+/*LARGE DEVICES*/
+
+$large-column-offset-1: 16.66%;
+$large-column-offset-2: 33.33%;
+$large-column-offset-3: 50%;
+$large-column-offset-4: 66.56%;
+$large-column-offset-5: 83.33%;
+$large-column-offset-6: 83.33%;
+
+/*DESKTOP DEVICES*/
+
+$desktop-column-offset-1: 25%;
+$desktop-column-offset-2: 50%;
+$desktop-column-offset-3: 75%;
+$desktop-column-offset-4: 75%;
+$desktop-column-offset-5: 75%;
+$desktop-column-offset-6: 75%;
+
+/*TABLETS AND SMALL LAPTOPS*/
+
+$tablet-column-offset-1: 66.66%;
+$tablet-column-offset-2: 33.33%;
+$tablet-column-offset-3: 66.66%;
+$tablet-column-offset-4: 66.66%;
+$tablet-column-offset-5: 66.66%;
+$tablet-column-offset-6: 66.66%;
+
+/*MOBILE*/
+
+$mobile-column-offset-1: 0;
+$mobile-column-offset-2: 0;
+$mobile-column-offset-3: 0;
+$mobile-column-offset-4: 0;
+$mobile-column-offset-5: 0;
+$mobile-column-offset-6: 0;
