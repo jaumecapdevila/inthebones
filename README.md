@@ -2,8 +2,14 @@
 A mobile first, lightweight and responsive grid system.
 
 ##Introduction
-Inthebones is a six column grid system. It's main goal is to offer an easy and lightweight alternative to many other grid systems out there that maybe are part of a bigger framework and require more customization or incorporates more functionalities that you don't really need. If you are working on a small or personal project with a simple structure and you just want a lightweight grid system to start playing with, this might be your library. 
+Inthebones is a six column grid system. It's main goal is to offer an easy and lightweight alternative to many other grid systems out there that maybe are part of a bigger framework and require more customization or incorporates components and functionalities that you don't really need. If you are working on a small or personal project with a simple structure and you just want a lightweight grid system to start playing with, this might be your library. 
 
+##Installation
+In order to start using this library you have two options. You can download all the repository as a zip, uncompresse it and use the minified or unminified version of the library that can be found in the dist folder. The recommended option to intall the library is by usgin npm. If you have npm installed in you computer you can just execute the following command in your terminal (be sure to execute the command in the root folder of your project) 
+
+```
+npm install inthebones
+```
 ##Customization
 The source code of this library has been written with SASS, so you can download it and use just the components that you need. All the configurations parameters has been defined in the source file 
 ```_variables.scss
@@ -67,7 +73,7 @@ By default all the columns have a default gutter that you can change in the conf
 ```
 <div class="column-1 no-gutter"></div>
 ```
-Thats all you need to know in order to start using this grid system. 
+Thats all you need to know in order to start using this grid system. You can check the example file index.html that is found in the root directory of the library
 ##Contribution
 I will appreciate every of your comments and appreciations, and of course feel free to upgrade things and make pull requests with all your changes. Thank you! 
 
