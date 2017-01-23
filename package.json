@@ -1,6 +1,6 @@
 {
   "name": "inthebones",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Mobile first, responsive and lightweight grid system",
   "main": "index.js",
   "scripts": {
