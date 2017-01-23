@@ -1,11 +1,11 @@
 .grid {
-  width: 90%;
-  max-width: 1200px;
-  box-sizing: border-box;
-  @include margin-auto();
+    width: 90%;
+    max-width: 1200px;
+    box-sizing: border-box;
+    @include margin-auto();
 }
 
 .grid--full {
-  width: 100%;
-  box-sizing: border-box;
+    width: 100%;
+    box-sizing: border-box;
 }

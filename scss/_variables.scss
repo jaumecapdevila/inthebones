@@ -5,288 +5,221 @@
 // 1 Grid breakpoints
 // 2 Gutters and margins
 // 3 Columns width
-
 /* ==========================================================================
    Grid Breakpoints
    ========================================================================== */
-
 $mobile-breakpoint: 320px;
 $tablet-breakpoint: 768px;
 $desktop-breakpoint: 920px;
 $large-breakpoint: 1200px;
-
 /* ==========================================================================
    Gutters and margins
    ========================================================================== */
-
 $mobile-column-gutter: 5px;
 $tablet-column-gutter: 8px;
 $desktop-column-gutter: 12px;
 $large-column-gutter: 16px;
-
 /* ==========================================================================
    Columns width
    ========================================================================== */
-
-
 /*LARGE DEVICES*/
-
 $large-column-1: 16.66%;
 $large-column-2: 33.33%;
 $large-column-3: 50%;
 $large-column-4: 66.66%;
 $large-column-5: 83.33%;
 $large-column-6: 100%;
-
 /*DESKTOP DEVICES*/
-
 $desktop-column-1: 25%;
 $desktop-column-2: 50%;
 $desktop-column-3: 75%;
 $desktop-column-4: 100%;
 $desktop-column-5: 100%;
 $desktop-column-6: 100%;
-
 /*TABLETS AND SMALL LAPTOPS*/
-
 $tablet-column-1: 33.33%;
 $tablet-column-2: 66.66%;
 $tablet-column-3: 100%;
 $tablet-column-4: 100%;
 $tablet-column-5: 100%;
 $tablet-column-6: 100%;
-
 /*MOBILE*/
-
 $mobile-column-1: 100%;
 $mobile-column-2: 100%;
 $mobile-column-3: 100%;
 $mobile-column-4: 100%;
 $mobile-column-5: 100%;
 $mobile-column-6: 100%;
-
 /* ==========================================================================
    COLUMNS OFFSETS
    ========================================================================== */
-
-
 /*LARGE DEVICES*/
-
 $large-column-1-offset-1: 16.66%;
 $large-column-1-offset-2: 33.33%;
 $large-column-1-offset-3: 50%;
 $large-column-1-offset-4: 66.56%;
 $large-column-1-offset-5: 83.33%;
 $large-column-1-offset-6: 83.33%;
-
 /*---*/
-
 $large-column-2-offset-1: 16.66%;
 $large-column-2-offset-2: 33.33%;
 $large-column-2-offset-3: 50%;
 $large-column-2-offset-4: 66.56%;
 $large-column-2-offset-5: 66.56%;
 $large-column-2-offset-6: 66.56%;
-
 /*---*/
-
 $large-column-3-offset-1: 16.66%;
 $large-column-3-offset-2: 33.33%;
 $large-column-3-offset-3: 50%;
 $large-column-3-offset-4: 50%;
 $large-column-3-offset-5: 50%;
 $large-column-3-offset-6: 50%;
-
 /*---*/
-
 $large-column-4-offset-1: 16.66%;
 $large-column-4-offset-2: 33.33%;
 $large-column-4-offset-3: 33.33%;
 $large-column-4-offset-4: 33.33%;
 $large-column-4-offset-5: 33.33%;
 $large-column-4-offset-6: 33.33%;
-
 /*---*/
-
 $large-column-5-offset-1: 16.66%;
 $large-column-5-offset-2: 16.66%;
 $large-column-5-offset-3: 16.66%;
 $large-column-5-offset-4: 16.66%;
 $large-column-5-offset-5: 16.66%;
 $large-column-5-offset-6: 16.66%;
-
 /*---*/
-
 $large-column-6-offset-1: 0;
 $large-column-6-offset-2: 0;
 $large-column-6-offset-3: 0;
 $large-column-6-offset-4: 0;
 $large-column-6-offset-5: 0;
 $large-column-6-offset-6: 0;
-
 /*DESKTOP DEVICES*/
-
 $desktop-column-1-offset-1: 25%;
 $desktop-column-1-offset-2: 50%;
 $desktop-column-1-offset-3: 75%;
 $desktop-column-1-offset-4: 75%;
 $desktop-column-1-offset-5: 75%;
 $desktop-column-1-offset-6: 75%;
-
 /*---*/
-
 $desktop-column-2-offset-1: 25%;
 $desktop-column-2-offset-2: 50%;
 $desktop-column-2-offset-3: 50%;
 $desktop-column-2-offset-4: 50%;
 $desktop-column-2-offset-5: 50%;
 $desktop-column-2-offset-6: 50%;
-
 /*---*/
-
 $desktop-column-3-offset-1: 25%;
 $desktop-column-3-offset-2: 25%;
 $desktop-column-3-offset-3: 25%;
 $desktop-column-3-offset-4: 25%;
 $desktop-column-3-offset-5: 25%;
 $desktop-column-3-offset-6: 25%;
-
 /*---*/
-
 $desktop-column-4-offset-1: 0;
 $desktop-column-4-offset-2: 0;
 $desktop-column-4-offset-3: 0;
 $desktop-column-4-offset-4: 0;
 $desktop-column-4-offset-5: 0;
 $desktop-column-4-offset-6: 0;
-
 /*---*/
-
 $desktop-column-5-offset-1: 0;
 $desktop-column-5-offset-2: 0;
 $desktop-column-5-offset-3: 0;
 $desktop-column-5-offset-4: 0;
 $desktop-column-5-offset-5: 0;
 $desktop-column-5-offset-6: 0;
-
 /*---*/
-
 $desktop-column-6-offset-1: 0;
 $desktop-column-6-offset-2: 0;
 $desktop-column-6-offset-3: 0;
 $desktop-column-6-offset-4: 0;
 $desktop-column-6-offset-5: 0;
 $desktop-column-6-offset-6: 0;
-
 /*---*/
-
-
 /*TABLETS AND SMALL LAPTOPS*/
-
 $tablet-column-1-offset-1: 33.33%;
 $tablet-column-1-offset-2: 66.66%;
 $tablet-column-1-offset-3: 66.66%;
 $tablet-column-1-offset-4: 66.66%;
 $tablet-column-1-offset-5: 66.66%;
 $tablet-column-1-offset-6: 66.66%;
-
 /*---*/
-
 $tablet-column-2-offset-1: 33.33%;
 $tablet-column-2-offset-2: 33.33%;
 $tablet-column-2-offset-3: 33.33%;
 $tablet-column-2-offset-4: 33.33%;
 $tablet-column-2-offset-5: 33.33%;
 $tablet-column-2-offset-6: 33.33%;
-
 /*---*/
-
 $tablet-column-3-offset-1: 0;
 $tablet-column-3-offset-2: 0;
 $tablet-column-3-offset-3: 0;
 $tablet-column-3-offset-4: 0;
 $tablet-column-3-offset-5: 0;
 $tablet-column-3-offset-6: 0;
-
 /*---*/
-
 $tablet-column-4-offset-1: 0;
 $tablet-column-4-offset-2: 0;
 $tablet-column-4-offset-3: 0;
 $tablet-column-4-offset-4: 0;
 $tablet-column-4-offset-5: 0;
 $tablet-column-4-offset-6: 0;
-
 /*---*/
-
 $tablet-column-5-offset-1: 0;
 $tablet-column-5-offset-2: 0;
 $tablet-column-5-offset-3: 0;
 $tablet-column-5-offset-4: 0;
 $tablet-column-5-offset-5: 0;
 $tablet-column-5-offset-6: 0;
-
 /*---*/
-
 $tablet-column-6-offset-1: 0;
 $tablet-column-6-offset-2: 0;
 $tablet-column-6-offset-3: 0;
 $tablet-column-6-offset-4: 0;
 $tablet-column-6-offset-5: 0;
 $tablet-column-6-offset-6: 0;
-
 /*MOBILE*/
-
 $mobile-column-1-offset-1: 0;
 $mobile-column-1-offset-2: 0;
 $mobile-column-1-offset-3: 0;
 $mobile-column-1-offset-4: 0;
 $mobile-column-1-offset-5: 0;
 $mobile-column-1-offset-6: 0;
-
 /*---*/
-
 $mobile-column-2-offset-1: 0;
 $mobile-column-2-offset-2: 0;
 $mobile-column-2-offset-3: 0;
 $mobile-column-2-offset-4: 0;
 $mobile-column-2-offset-5: 0;
 $mobile-column-2-offset-6: 0;
-
 /*---*/
-
 $mobile-column-3-offset-1: 0;
 $mobile-column-3-offset-2: 0;
 $mobile-column-3-offset-3: 0;
 $mobile-column-3-offset-4: 0;
 $mobile-column-3-offset-5: 0;
 $mobile-column-3-offset-6: 0;
-
 /*---*/
-
 $mobile-column-4-offset-1: 0;
 $mobile-column-4-offset-2: 0;
 $mobile-column-4-offset-3: 0;
 $mobile-column-4-offset-4: 0;
 $mobile-column-4-offset-5: 0;
 $mobile-column-4-offset-6: 0;
-
 /*---*/
-
 $mobile-column-5-offset-1: 0;
 $mobile-column-5-offset-2: 0;
 $mobile-column-5-offset-3: 0;
 $mobile-column-5-offset-4: 0;
 $mobile-column-5-offset-5: 0;
 $mobile-column-5-offset-6: 0;
-
 /*---*/
-
 $mobile-column-6-offset-1: 0;
 $mobile-column-6-offset-2: 0;
 $mobile-column-6-offset-3: 0;
 $mobile-column-6-offset-4: 0;
 $mobile-column-6-offset-5: 0;
 $mobile-column-6-offset-6: 0;
-
 /*---*/
