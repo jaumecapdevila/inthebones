@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-.u-no-gutter {
+.no-gutter {
     @include no-gutter();
 }
 
