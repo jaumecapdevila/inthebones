@@ -67,6 +67,10 @@
   box-sizing: border-box;
 }
 
+.u-no-gutter {
+  padding: 0 !important;
+}
+
 .column-1 {
   width: 100%;
 }

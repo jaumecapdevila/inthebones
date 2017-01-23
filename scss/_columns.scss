@@ -4,7 +4,9 @@
     padding: $mobile-column-gutter;
     box-sizing: border-box;
 }
-
+.u-no-gutter{
+    @include no-gutter();
+}
 .column-1 {
     width: $mobile-column-1;
 }
