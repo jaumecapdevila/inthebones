@@ -11,9 +11,7 @@ In order to start using this library you have two options. You can download all 
 npm install inthebones
 ```
 ##Customization
-The source code of this library has been written with SASS, so you can download it and use just the components that you need. All the configurations parameters has been defined in the source file 
-```_variables.scss
-``` that could be found inside the scss folder of the library.
+The source code of this library has been written with SASS, so you can download it and use just the components that you need. All the configurations parameters has been defined in the source file `_variables.scss` that could be found inside the scss folder of the library.
 
 Feel free to modify any parameter that you need to adjust it to your necessities. For example you can change the default column gutter for every device just by modifying the value of the following variables:
 
@@ -24,8 +22,7 @@ $desktop-column-gutter: 12px;
 $large-column-gutter: 16px;
 ```
 
-Once you have modified it, just run the default task defined in the ```gruntfile.js
-``` file to rebuild the two final files that will be located in the dist folder of the library.
+Once you have modified it, just run the default task defined in the `gruntfile.js` file to rebuild the two final files that will be located in the dist folder of the library.
 
 ##Use guide
 As said before, inthebones offers you the possibility to divide your content into 6 responsive columns. In order to make sure that the content that is inside of every column is displayed properly on every device, the columns will rezize its own size atomatically. So for example, a column that only gets the last 4 spaces of the row in a desktop device might get all the available space in a smaller device.
@@ -37,8 +34,7 @@ The container is the main component of the library. It will contain all the rows
 <div class="grid"></grid>
 ``` 
 
-By default the container will have a max width of 1200px. Once this width is overcome the container will be centered in the middle of the screen. You can change this default behaviour by using the class ``` 
-grid--full``` instead as follow:
+By default the container will have a max width of 1200px. Once this width is overcome the container will be centered in the middle of the screen. You can change this default behaviour by using the class `grid--full` instead as follow:
 
 ```
 <div class="grid--full"></grid>
